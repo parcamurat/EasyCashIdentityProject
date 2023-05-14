@@ -1,4 +1,5 @@
-﻿using System;
+﻿using EasyCashIdentityProjectDataAccessLayer.Concrete;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -13,5 +14,8 @@ namespace EasyCashIdentityProjectEntityLayer.Concreate
         public int CustomerAccountCurrency { get; set;}
         public int CustomerAccountBalance { get; set; }
         public int BankBranch { get; set; }
+        public int AppUserID { get; set; }
+        public AppUser AppUser { get; set; }
+
     }
 }
